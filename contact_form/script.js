@@ -11,7 +11,7 @@ form.addEventListener("submit", async (e) => {
   };
 
   // 🔗 Replace with your actual n8n webhook URL
-  const n8nWebhookURL = "https://your-n8n-instance/webhook/form-submit";
+  const n8nWebhookURL = "https://together-living-shad.ngrok-free.app";
 
   try {
     const res = await fetch(n8nWebhookURL, {
@@ -34,3 +34,4 @@ form.addEventListener("submit", async (e) => {
     responseMessage.style.color = "red";
   }
 });
+
